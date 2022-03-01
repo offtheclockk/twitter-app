@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import AppProviders from "./AppProviders";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <AppProviders>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </AppProviders>,
   document.getElementById('root')
 );
 
