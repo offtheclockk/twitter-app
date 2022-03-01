@@ -6,8 +6,8 @@ import { Col, Row } from 'react-bootstrap';
 export default function Routes() {
           return (
                     <Row>
-                              <Col>
-                                        <Col>
+                              <Col className="px-sm-4" sm="12" lg="8">
+                                        <Col className="border">
                                                   <Switch>
                                                             <Route path="/" component={Home} />
                                                   </Switch>
