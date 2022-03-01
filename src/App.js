@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { useAuthUser } from "./context/auth-context";
+import AuthApp from "./AuthApp";
+import UnAuthApp from "./UnAuthApp"
 
 function App() {
-  return (
-    <div className="App">
+  const authUser = useAuthUser()
 
-    </div>
-  );
+  if (authUser) {
+    return <AuthApp />
+  } else {
+    return <UnAuthApp />
+  }
 }
 
 export default App;

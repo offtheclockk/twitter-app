@@ -1,5 +1,4 @@
 import React from 'react';
-import "./styles.main.scss";
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from "react-query/devtools";
 
