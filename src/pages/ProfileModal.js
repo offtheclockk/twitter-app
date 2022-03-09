@@ -74,7 +74,7 @@ export default function ProfileModal() {
                               const avatar = await uploadMedia({
                                         type: "image",
                                         file,
-                                        preset: "your-preset",
+                                        preset: "oyw2i3qc",
                               });
                               setProfile(avatar);
                     }
@@ -87,7 +87,7 @@ export default function ProfileModal() {
                               const banner = await uploadMedia({
                                         type: "image",
                                         file,
-                                        preset: "your-preset",
+                                        preset: "zgcyaxkx ",
                               });
                               setBanner(banner);
                     }
