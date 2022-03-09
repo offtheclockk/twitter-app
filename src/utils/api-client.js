@@ -26,3 +26,7 @@ export async function getNotifications() {
                     .get(`/api/notifications`)
                     .then((res) => res.data.notifications);
 }
+
+export async function updateUserDetails(user) {
+          await client.post("/api/updateuser", user);
+}
